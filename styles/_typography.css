@@ -1,0 +1,67 @@
+.tl {
+  font-size: 2.06rem;
+  font-family: var(--f-main-bold);
+  font-weight: normal;
+  line-height: 1.64;
+  padding: 0;
+  margin: 0 0 4.06rem;
+}
+.tl--main {
+  font-size: 5.25rem;
+  font-family: var(--f-sec-bold);
+  color: var(--c-dark);
+  line-height: 1.06;
+  letter-spacing: -3px;
+  margin-bottom: 1.88rem;
+}
+.tl--secondary {
+  font-size: 1.25rem;
+  color: var(--c-secondary);
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.tl__decor {
+  position: relative;
+}
+.tl__decor:after {
+  content: "";
+  width: 177%;
+  height: 0.75em;
+  position: absolute;
+  left: -12%;
+  bottom: 16%;
+  background: url("../images/decor-tl.svg") 50% 100% / 100% auto no-repeat;
+  z-index: -1;
+}
+
+@media screen and (max-width: 991px) {
+  .tl {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+  }
+  .tl--main {
+    font-size: 4rem;
+    line-height: 1.06;
+  }
+  .tl--secondary {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .tl {
+    font-size: 1.6rem;
+  }
+  .tl--main {
+    font-size: 3.5rem;
+    letter-spacing: -1px;
+    margin-bottom: 1.3rem;
+  }
+  .tl__decor:after {
+    width: 140%;
+  }
+}

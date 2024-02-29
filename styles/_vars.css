@@ -1,0 +1,34 @@
+:root {
+  /* colors */
+  --c-primary: #F1A501;
+  --c-primary-darker: #E09902;
+  --c-primary-darkest: #C58806; 
+  --c-yellow: #FFF1DA;
+
+  --c-secondary: #DF6951;
+  --c-secondary-darker: #d3634d;
+  --c-secondary-darkest: #ca5e49;
+  --c-salmon: #FF7D68;
+  --c-salmon-light: #FF946D;
+  --c-salmon-darker: #F2725F;
+  --c-invalid: #DD462F;
+
+  --c-black: #000000;
+  --c-dark: #181E4B;
+  --c-gray: #39425D;
+  --c-gray-light: #686D77;
+  --c-text: #5E6282;
+  --c-violet: #F9F7FE;
+  --c-success: #1DA634;
+
+  --c-white: #FFFFFF;
+
+  /* fonts */
+  --f-main-regular: "Poppins-Regular", sans-serif;
+  --f-main-medium: "Poppins-Medium", sans-serif;
+  --f-main-bold: "Poppins-Bold", sans-serif;
+  --f-sec-bold: "Volkhov-Bold", serif;
+
+  --transition: 0.2s ease;
+
+}

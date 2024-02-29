@@ -1,0 +1,113 @@
+section {
+  padding: 3.75rem 0;
+}
+
+.s-intro {
+  padding-top: 7.81rem;
+  padding-bottom: 0;
+}
+.s-intro__img-box img {
+  width: 128%;
+  margin-top: -23%;
+  margin-left: -23%;
+}
+
+.s-subscr {
+  padding-bottom: 7.5rem;
+  overflow: hidden;
+}
+.s-subscr__box {
+  padding: 5rem 8rem 5.34rem;
+  background: url("../images/decor-circles-l.svg") 0 100% / 23.34rem 17.38rem no-repeat, var(--c-violet) url("../images/decor-circles-r.svg") 100% 0 / 12.5rem 17.19rem no-repeat;
+  border-radius: 8.125rem 1.25rem 1.25rem 1.25rem;
+  position: relative;
+}
+.s-subscr__box .tl {
+  text-align: center;
+}
+.s-subscr__box__icon {
+  position: absolute;
+  top: -2.19rem;
+  right: -2.19rem;
+  width: 4.375rem;
+  height: 4.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(201.65deg, #747DEF 10.27%, #5E3BE1 100%);
+}
+.s-subscr__box__icon svg {
+  width: 2.875rem;
+  height: 2.75rem;
+}
+.s-subscr__box:after {
+  content: "";
+  width: 9.375rem;
+  height: 9.375rem;
+  position: absolute;
+  right: -6.69rem;
+  bottom: -4.31rem;
+  background: url("../images/decor-stars.svg") 50% 50% / 100% auto no-repeat;
+}
+
+
+@media screen and (max-width: 1380px) {
+  .s-subscr__box {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+  .s-subscr__box {
+    max-width: 80%;
+  }
+}
+
+
+@media screen and (max-width: 1199px) {
+  .s-intro__img-box img {
+    width: 113%;
+    margin-top: -13%;
+    margin-left: -17%;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  .s-intro {
+    padding-top: 5rem;
+  }
+  .s-subscr__box {
+    max-width: calc(100% - 4.375rem);
+    padding: 3.5rem 3rem;
+  }
+  .s-subscr__box:after {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .s-intro {
+    padding-top: 9rem;
+    text-align: center;
+  }
+  .s-intro__img-box {
+    padding-top: 2rem;
+  }
+  .s-intro__img-box img {
+    width: 85%;
+    margin: 0;
+  }
+  .s-subscr__box {
+    max-width: 100%;
+    padding: 2.5rem 2rem;
+    border-top-left-radius: 1.25rem;
+  }
+  .s-subscr__box__icon {
+    display: none;
+  }
+}
