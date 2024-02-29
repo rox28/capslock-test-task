@@ -13,18 +13,19 @@
   display: block;
   padding: 0.45rem 1rem;
   margin-left: 1rem;
+  border: 1px solid transparent;
 }
 
 .header-nav__link--btn {
-  box-shadow: 0 0 0 1px var(--c-gray);
+  border-color: var(--c-gray);
   border-radius: 0.31rem;
   margin-left: 2rem;
 }
 .header-nav__link--btn:hover {
-  box-shadow: 0 0 0 1px var(--c-primary-darker);
+  border-color: 0 0 0 1px var(--c-primary-darker);
 }
 .header-nav__link--btn:active {
-  box-shadow: 0 0 0 1px var(--c-primary-darkest);
+  border-color: 0 0 0 1px var(--c-primary-darkest);
 }
 
 .header-nav__link--has-dropdown {
