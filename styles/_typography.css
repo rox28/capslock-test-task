@@ -4,7 +4,7 @@
   font-weight: normal;
   line-height: 1.64;
   padding: 0;
-  margin: 0 0 4.06rem;
+  margin: 0 0 1.5rem 0;
 }
 .tl--main {
   font-size: 5.25rem;
@@ -12,13 +12,12 @@
   color: var(--c-dark);
   line-height: 1.06;
   letter-spacing: -3px;
-  margin-bottom: 1.88rem;
 }
 .tl--secondary {
   font-size: 1.25rem;
+  line-height: 1.5;
   color: var(--c-secondary);
   text-transform: uppercase;
-  margin-bottom: 1.5rem;
 }
 
 .tl__decor {
@@ -39,7 +38,6 @@
   .tl {
     font-size: 1.8rem;
     line-height: 1.4;
-    margin-bottom: 2rem;
   }
   .tl--main {
     font-size: 4rem;
@@ -60,6 +58,9 @@
     font-size: 3.5rem;
     letter-spacing: -1px;
     margin-bottom: 1.3rem;
+  }
+  .tl--secondary {
+    font-size: 1.3rem;
   }
   .tl__decor:after {
     width: 140%;

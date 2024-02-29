@@ -40,8 +40,12 @@ body:after {
 }
 
 p {
-  line-height: 1.88;
-  margin: 0 0 2.12rem;
+  margin: 0 0 1rem;
+}
+
+.dscr {
+  font-family: var(--f-main-medium);
+  margin: 0 0 2.5rem;
 }
 
 a {
@@ -86,5 +90,8 @@ a:active {
   body:after {
     width: 100%;
     height: 106vw;
+  }
+  .dscr {
+    margin-bottom: 2rem;
   }
 }

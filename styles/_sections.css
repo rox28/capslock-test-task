@@ -17,13 +17,14 @@ section {
   overflow: hidden;
 }
 .s-subscr__box {
-  padding: 5rem 8rem 5.34rem;
-  background: url("../images/decor-circles-l.svg") 0 100% / 23.34rem 17.38rem no-repeat, var(--c-violet) url("../images/decor-circles-r.svg") 100% 0 / 12.5rem 17.19rem no-repeat;
+  padding: 5rem 8rem;
+  background: url("../images/decor-circles-l.svg") 0 100% / 23.12rem 17.06rem no-repeat, var(--c-violet) url("../images/decor-circles-r.svg") 100% 0 / 12.5rem 17.19rem no-repeat;
   border-radius: 8.125rem 1.25rem 1.25rem 1.25rem;
   position: relative;
 }
 .s-subscr__box .tl {
   text-align: center;
+  margin: 0 0 4.06rem;
 }
 .s-subscr__box__icon {
   position: absolute;
@@ -78,14 +79,21 @@ section {
 
 @media screen and (max-width: 991px) {
   .s-intro {
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
   .s-subscr__box {
     max-width: calc(100% - 4.375rem);
     padding: 3.5rem 3rem;
+    border-top-left-radius: 5rem;
+  }
+  .s-intro__img-box img {
+    margin-top: 0;
   }
   .s-subscr__box:after {
     display: none;
+  }
+  .s-subscr__box .tl {
+    margin-bottom: 2rem;
   }
 }
 
@@ -106,8 +114,12 @@ section {
     max-width: 100%;
     padding: 2.5rem 2rem;
     border-top-left-radius: 1.25rem;
+    background-image: none;
   }
   .s-subscr__box__icon {
     display: none;
+  }
+  .s-subscr__box .tl {
+    margin-bottom: 1.8rem;
   }
 }
