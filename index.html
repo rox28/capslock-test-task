@@ -12,8 +12,8 @@
       function navToggle() {
         let nav = document.getElementById('nav');
         let btn = document.getElementById('navBtn');
-        nav.classList.toggle('active')
-        btn.classList.toggle('active')
+        nav.classList.toggle('active');
+        btn.classList.toggle('active');
       }
     </script>
   </head>
@@ -34,19 +34,21 @@
           </div>
           <div class="col-auto">
             <nav id="nav" class="header-nav">
-              <a href="#" class="header-nav__link">Destinations</a>
-              <a href="#" class="header-nav__link">Hotels</a>
-              <a href="#" class="header-nav__link">Flights</a>
-              <a href="#" class="header-nav__link">Bookings</a>
-              <a href="#" class="header-nav__link">Login</a>
-              <a href="#" class="header-nav__link header-nav__link--btn">Sign up</a>
-              <a href="#" class="header-nav__link header-nav__link--has-dropdown">
-                <span>EN</span>
-                <div class="header-nav__dropdown">
-                  <span>FR</span>
-                  <span>UA</span>
-                </div>
-              </a>
+              <div class="header-nav-inner">
+                <a href="#" class="header-nav__link">Destinations</a>
+                <a href="#" class="header-nav__link">Hotels</a>
+                <a href="#" class="header-nav__link">Flights</a>
+                <a href="#" class="header-nav__link">Bookings</a>
+                <a href="#" class="header-nav__link">Login</a>
+                <a href="#" class="header-nav__link header-nav__link--btn">Sign up</a>
+                <a href="#" class="header-nav__link header-nav__link--has-dropdown">
+                  <span class="active">EN</span>
+                  <div class="header-nav__dropdown">
+                    <span>FR</span>
+                    <span>UA</span>
+                  </div>
+                </a>
+              </div>
             </nav>
             <button id="navBtn" type="button" class="header-nav__toggle" onClick="navToggle()">
               <span></span>
