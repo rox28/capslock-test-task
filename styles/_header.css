@@ -34,10 +34,10 @@
   margin-left: 2rem;
 }
 .header-nav__link--btn:hover {
-  border-color: 0 0 0 1px var(--c-primary-darker);
+  border-color: var(--c-primary-darker);
 }
 .header-nav__link--btn:active {
-  border-color: 0 0 0 1px var(--c-primary-darkest);
+  border-color: var(--c-primary-darkest);
 }
 
 .header-nav__link--has-dropdown {
